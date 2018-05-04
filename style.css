@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&subset=latin-ext');
+@font-face {
+    font-family: "Dancing Script", sans-serif;
+    src: url('fonts/dancingscript-regular/dancingscript-regular-webfont.eot');
+    src: url('fonts/dancingscript-regular/dancingscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/dancingscript-regular/dancingscript-regular-webfont.woff2') format('woff2'),
+    url('fonts/dancingscript-regular/dancingscript-regular-webfont.woff') format('woff'),
+    url('fonts/dancingscript-regular/dancingscript-regular-webfont.ttf') format('truetype'),
+    url('fonts/dancingscript-regular/dancingscript-regular-webfont.svg#dancing_script_otregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Darkwoman';
+    src: url('fonts/darkwoman/Darkwoman.eot');
+    src: url('fonts/darkwoman/Darkwoman.eot?#iefix') format('embedded-opentype'),
+    url('fonts/darkwoman/Darkwoman.woff2') format('woff2'),
+    url('fonts/darkwoman/Darkwoman.woff') format('woff'),
+    url('fonts/darkwoman/Darkwoman.ttf') format('truetype'),
+    url('fonts/darkwoman/Darkwoman.svg#Darkwoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do');
+.configuration-info{
+    font-family:Montserrat, Sans-Serif;
+    font-size:16px;
+}
+.configuration-info .benefits-block {
+    padding: 10px 0 40px 0;
+    margin-top: 50px;
+    border-top: 2px solid #01b1ae;
+    border-bottom: 2px solid #01b1ae;
+    display: flex;
+    flex-wrap: wrap;
+}
+.configuration-info .benefits-block .benefits-heading {
+    font-family: "Darkwoman", "Dancing Script", cursive;
+    color: #01b1ae;
+    font-size: 46px;
+    text-align: center;
+    letter-spacing: -1px;
+    width: 100%;
+}
+.configuration-info .benefits-block .benefits-item {
+    background-color: #D4EEED;
+    padding-left: 30px;
+}
+.configuration-info .benefits-block .benefits-item .benefits-item-heading {
+    text-transform: uppercase;
+    color: #565d60;
+    font-weight: 600;
+    margin: 25px 0 15px 0;
+    position: relative;
+}
+.configuration-info .benefits-block .benefits-item .benefits-item-heading::before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    width: 20px;
+    height: 16px;
+    background-image: url(img/moon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.configuration-info .benefits-block .benefits-item .benefits-item-text {
+    font-weight: 500;
+}
+.configuration-info .materials-block {
+    padding: 40px 0 0 0;
+}
+.configuration-info .materials-block .materials-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    justify-content: center;
+}
+.configuration-info .materials-block .materials-item .materials-item-info {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.configuration-info .materials-block .materials-item .materials-item-info .materials-item-heading {
+    margin: 0;
+    font-family: "Darkwoman", "Dancing Script", cursive;
+    color: #01b1ae;
+    font-size: 36px;
+    letter-spacing: -1px;
+    width: 100%;
+    margin-top: -30px;
+}
+.configuration-info .materials-block .materials-item .materials-item-info .materials-item-text {
+    font-size: 15px;
+    padding: 10px;
+    text-align: justify;
+}
+.configuration-info .materials-block .materials-item .materials-item-illustration {
+    border: 1px solid transparent;
+    background-color: #D4EEED;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.configuration-info .materials-block .materials-item .materials-item-illustration img {
+    max-width: 100%;
+}
+.configuration-info .materials-block .materials-item.even .materials-item-text {
+    padding-right: 40px;
+    margin-right: -35px;
+    letter-spacing: -1px;
+    background-color: #D4EEED;
+}
+@media screen and (max-width: 1419px) {
+    .configuration-info .materials-block .materials-item.even .materials-item-text {
+        background-color: transparent;
+        letter-spacing: 0;
+    }
+}
+.configuration-info .materials-block .materials-item.even .materials-item-heading {
+    text-align: right;
+}
+.configuration-info .structure-block {
+    border-top: 2px solid #01b1ae;
+    padding: 30px 0 0 0;
+    margin-top: 30px;
+}
+.configuration-info .structure-block .structure-item {
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+@media screen and (max-width: 1419px) and (min-width: 996px) {
+    .configuration-info .structure-block .structure-item {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+.configuration-info .structure-block .structure-item .structure-item-illustration {
+    max-width: 100%;
+}
+@media screen and (max-width: 1419px) and (min-width: 996px) {
+    .configuration-info .structure-block .structure-item .structure-item-illustration {
+        max-height: 500px;
+    }
+}
+.configuration-info .structure-block .structure-item .structure-plus .structure-plus-heading {
+    font-family: "Darkwoman", "Dancing Script", cursive;
+    color: #01b1ae;
+    font-size: 36px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+.configuration-info .structure-block .structure-item .structure-plus .plus {
+    font-family: "Darkwoman", "Dancing Script", cursive;
+    color: #01b1ae;
+    font-size: 46px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #01b1ae;
+    display: block;
+    border-radius: 50%;
+    line-height: 50px;
+    background-color: #fff;
+}
+.configuration-info .structure-block .structure-item .structure-plus .plus:hover {
+    color: #fff;
+    background-color: #01b1ae;
+    cursor: pointer;
+}
+.configuration-info .structure-block .structure-item .structure-plus.one,
+.configuration-info .structure-block .structure-item .structure-plus.two,
+.configuration-info .structure-block .structure-item .structure-plus.three,
+.configuration-info .structure-block .structure-item .structure-plus.four {
+    position: absolute;
+    z-index: 2;
+}
+.configuration-info .structure-block .structure-item .structure-plus.one {
+    top: 10px;
+    left: 100px;
+}
+@media screen and (max-width: 1419px) and (min-width: 996px) {
+    .configuration-info .structure-block .structure-item .structure-plus.one {
+        top: 0px;
+        left: 160px;
+    }
+}
+.configuration-info .structure-block .structure-item .structure-plus.one .structure-plus-heading {
+    margin: 0 0 30px 30px;
+}
+.configuration-info .structure-block .structure-item .structure-plus.one .structure-plus-heading::after {
+    content: "";
+    background-image: url("img/bet-arrow-1.png");
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    z-index: 3;
+    left: 50px;
+}
+@media screen and (max-width: 1419px) and (min-width: 996px) {
+    .configuration-info .structure-block .structure-item .structure-plus.one .plus {
+        position: absolute;
+        left: 0;
+    }
+}
+.configuration-info .structure-block .structure-item .structure-plus.two {
+    top: 130px;
+    right: 0;
+}
+@media screen and (max-width: 1419px) and (min-width: 996px) {
+    .configuration-info .structure-block .structure-item .structure-plus.two {
+        top: 90px;
+    }
+}
+.configuration-info .structure-block .structure-item .structure-plus.two .structure-plus-heading {
+    margin: 0 0 23px 30px;
+}
+.configuration-info .structure-block .structure-item .structure-plus.two .structure-plus-heading::after {
+    content: "";
+    background-image: url("img/bet-arrow-1.png");
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    z-index: 3;
+    left: 50px;
+}
+@media screen and (max-width: 1419px) and (min-width: 996px) {
+    .configuration-info .structure-block .structure-item .structure-plus.two .plus {
+        position: absolute;
+        left: 0;
+    }
+}
+.configuration-info .structure-block .structure-item .structure-plus.three {
+    bottom: 239px;
+    right: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 1419px) and (min-width: 996px) {
+    .configuration-info .structure-block .structure-item .structure-plus.three {
+        bottom: 200px;
+        right: 120px;
+    }
+}
+.configuration-info .structure-block .structure-item .structure-plus.three .structure-plus-heading {
+    margin: 0 5px 20px 8px;
+}
+.configuration-info .structure-block .structure-item .structure-plus.four {
+    bottom: -40px;
+    right: 0px;
+    text-align: center;
+}
+@media screen and (max-width: 1419px) and (min-width: 996px) {
+    .configuration-info .structure-block .structure-item .structure-plus.four {
+        right: 60px;
+    }
+}
+.configuration-info .structure-block .structure-item .structure-plus.four .structure-plus-heading {
+    margin: 100px 0 0 0;
+}
+@media screen and (max-width: 1419px) and (min-width: 996px) {
+    .configuration-info .structure-block .structure-item .structure-plus.four .structure-plus-heading {
+        margin: 60px 0 0 0;
+    }
+}
+.configuration-info .structure-block .structure-item .structure-plus.four .structure-plus-heading::before {
+    content: "";
+    background-image: url("img/bet-arrow-1.png");
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    z-index: 3;
+    left: 110px;
+    bottom: 70px;
+    transform: rotate3d(0, 0, 1, 160deg);
+}
+.configuration-info .structure-block .structure-item .structure-plus.four .plus {
+    margin-left: 100px;
+}
+.configuration-info .structure-block .structure-item-heading {
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.configuration-info .structure-block .structure-item-text {
+    font-size: 12px;
+    margin: 0 0 20px;
+}
+.configuration-info .structure-block .structure-item-bl {
+    opacity: 0.5;
+}
+.configuration-info .structure-block .structure-item-bl.active {
+    opacity: 1;
+}
+.configuration-info .height-block {
+    border-top: 2px solid #01b1ae;
+    padding: 0;
+}
+.configuration-info .height-block .height-heading {
+    font-family: Montserrat, Sans-Serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #01b1ae;
+    margin: 30px 0;
+}
+.configuration-info .height-block .height-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.configuration-info .height-block .height-item .height-item-heading {
+    font-family: "Darkwoman", "Dancing Script", cursive;
+    color: #01b1ae;
+    font-size: 38px;
+    background-color: #D4EEED;
+    text-align: center;
+    padding: 5px 0 0;
+    width: 100%;
+    margin: 25px 0;
+}
+.configuration-info .height-block .height-item .height-item-text {
+    float: left;
+    width: 60%;
+    padding: 10px 20px 20px 10px;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.configuration-info .height-block .height-item .height-item-illustration {
+    display: inline;
+    float: left;
+    max-width: 40%;
+    height: auto;
+    max-height: 175px;
+}
+.configuration-info .options-block {
+    padding: 0;
+}
+.configuration-info .options-block .options-heading {
+    font-family: "Darkwoman", "Dancing Script", cursive;
+    color: #01b1ae;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px 0 10px;
+    width: 100%;
+    margin: 25px 0;
+    border: 5px solid #d4eeed;
+}
+.configuration-info .options-block .options-text {
+    text-align: center;
+    background-color: #d4eeed;
+    padding: 30px 20px;
+}
+.configuration-info .options-block .options-illustration {
+    max-width: 100%;
+    margin: 30px 0;
+}
